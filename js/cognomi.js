@@ -5,7 +5,15 @@
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
 
 var cognomi = [ 'Neri', 'Bianchi', 'Rossi', 'Verdi', 'Gialli'];
+
 var askCogn = prompt('inserisci cognome');
+var askCogn = askCogn.charAt(0).toUpperCase() + askCogn ;
+
+// var cognomeUtente = prompt("Inserisci qui il tuo cognome")
+// var cognomeMaiusc= cognomeUtente.substring(0, 1).toUpperCase() + cognomeUtente.substring(1);
+
+
+
 cognomi.push(askCogn);
 
 
